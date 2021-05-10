@@ -6,7 +6,6 @@ import emoji
 import random
 
 
-@st.cache
 def get_model():
     clf = pickle.load(open("model.pkl", "rb"))
     return clf
